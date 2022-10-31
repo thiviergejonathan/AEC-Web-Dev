@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+p {
+  color:blueviolet;
+}
+
+p a {
+  color:brown;
+}
+
+h1, h2, h3 {
+  color:cornflowerblue;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol{
+  background-color: aquamarine;
+}
+
+ol a , ul a{
+  color: coral;
+}
+
+body {
+  background-color: gray;
+  font-size: 1rem;
+  color: palegreen;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 10px;
+}
+
+.btn {
+  color: paleturquoise;
+  background-color: royalblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.important{
+  font-size: 20em;
+  color: magenta;
+  text-align: center;
+}
