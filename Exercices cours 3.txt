@@ -1,0 +1,291 @@
+ÉCRIRE LE PSEUDOCODE POUR CHAQUE EXERCICE
+
+Exercices 1 à 4
+1. Prends 2 nombres différents en paramètre. Trouver et retourner le plus petit et
+le plus grand. Si les deux nombres sont identiques, retournez un message
+d'erreur à l'utilisateur.
+
+Name: compareDifferentNumbers
+
+START
+
+variables: number1, number2
+
+IF number1 == number2
+	RETURN Message d'erreur
+ELSE IF number1 > number2
+	RETURN Le plus petit: number2 et le plus grand number1
+ELSE
+	RETURN Le plus petit: number1 et le plus grand number2
+ENDIF
+
+END
+
+
+2. Prends 3 nombres différents en paramètres. Trouver et retourner le plus petit
+et le plus grand.
+
+Name: findSmallestAndHighestNumber
+
+START
+
+variables: number1, number2, number3
+
+IF number1 > number2 && number1 > number3
+	IF number2 > number3
+		RETURN number3, number1
+	ELSE
+		RETURN number2, number1
+ELSE IF number2 > number1 && number2 > number3
+	IF number1 > number3
+		RETURN number3, number2
+	ELSE
+		RETURN number1, number2
+ELSE
+	IF number1 > number2
+		RETURN number2, number3
+	ELSE
+		RETURN number1, number3
+ENDIF
+
+END
+
+
+3. Prends le périmètre d’un rectangle en paramètre. Calculer et retourner la
+surface d'un rectangle pour seulement ceux ayant un périmètre d'au moins
+100.
+
+Name: calculateRectangleSurface
+
+START
+
+variables: perimeter, height, width
+
+IF perimeter >= 100
+	RETURN height * width
+ENDIF
+
+END
+
+
+4. Prends 2 nombres en paramètre. Si ces 2 nombres sont :
+a. supérieurs ou égaux à 10, retournez leur somme (addition)
+b. inférieurs à 10, retourner leur produit (multiplication)
+c. Si l'un des deux nombres est supérieur ou égal à 10 et l'autre inférieur à 10, affichez la
+différence entre les deux nombres.
+
+Name: addMultiplyOrDiffNumber10
+
+START
+
+variables: number1, number2
+
+IF number1 >= 10 && number2 >= 10
+	RETURN number1 + number2
+ELSE IF number1 < 10 && number2 < 10
+	RETURN number1 * number2
+ELSE IF number1 >= 10 && number2 < 10
+	RETURN number1 - number2
+ELSE IF number2 >= 10 && number1 <10
+	RETURN number1 - number2
+ENDIF
+
+END
+
+
+Exercices 5 à 8
+5. Prends une lettre de l'alphabet en paramètre. Retourner le mot voyelle (pour : a, e, i, o, u, y) ou
+le mot consonne (pour les autres) selon la lettre lue.
+
+Name: vowelOrConsonant
+
+START
+
+variable: letter
+
+IF letter == a || letter == e || letter == i || letter == o || letter == u || letter == y
+	RETURN voyelle
+ELSE
+	RETURN consonne
+ENDIF
+
+END
+
+
+6. Lire une note d’examen et retourner « Échec » si la note est inférieure à 60 et « Bravo » si la
+note est supérieure ou égale à 60.
+
+Name: passedOrFailed
+
+START
+
+variables: grade
+
+IF grade < 60
+	RETURN Echec
+ELSE
+	RETURN Bravo
+ENDIF
+
+END
+
+
+7. Prends un montant de vente en paramètre et retourne le montant d’escompte correspondant
+sachant que le taux d’escompte est de 12% et n’est calculé que sur les montants supérieurs ou
+égaux à $500.00.
+
+Name: calculateSavings
+
+variables: price
+
+START
+
+IF price > 500
+	RETURN price * 0.12
+ENDIF
+
+END
+
+
+8. Prends l’âge d’un individu en paramètre et retourner le mot :
+a. « Adulte » si l’âge est plus grand ou égal à 18 ans
+b. « Adolescent » si l’âge est compris entre 12 et 17 ans inclusivement
+c. « Enfant » si l’âge est moins de 12 ans.
+
+Name: adultAdoOrChild
+
+START
+
+variables: age
+
+IF age >= 18
+	RETURN Adulte
+ELSE IF age >= 12 && age <= 17
+	RETURN Adolescent
+ELSE
+	RETURN Enfant
+ENDIF
+
+END
+
+
+Exercices 9 à 11
+9. Prends 2 paramètres: longueur et hauteur.
+a. Si la longueur est de 100 et moins, retourner “Petit”, sinon retourner “Grand”. Même chose pour
+la hauteur.
+b. Si la longueur et la hauteur sont de la même grandeur, ne pas retourner “Petit” ou “Grand” mais
+simplement retourner “Pareil”
+
+Name: lenghtAndHeightSmallOrBig
+
+START
+
+variables: lenght, height
+
+IF lenght == height
+	RETURN Pareil
+ENDIF
+
+IF lenght >= 100
+	RETURN Petit
+ELSE
+	RETURN Grand
+ENDIF
+
+IF height >= 100
+	RETURN Petit
+ELSE
+	RETURN Grand
+ENDIF
+
+END
+
+
+10. Reprendre le problème ci-haut.
+c. Lorsque la hauteur est plus petite que 100 et que la longueur est est pareil à la hauteur,
+retourner “Petit et pareil”.
+d. Faire de même pour la longueur.
+
+Name: lenghtAndHeightSmallOrBig
+
+START
+
+variables: lenght, height
+
+IF lenght == height
+	IF lenght >= 100
+		RETURN Petit et pareil
+	ELSE
+		RETURN Grand et pareil
+	ENDIF
+
+	IF height >= 100
+		RETURN Petit et pareil
+	ELSE
+		RETURN Grand et pareil
+	ENDIF
+	
+	RETURN Pareil
+ENDIF
+
+IF lenght >= 100
+	RETURN Petit
+ELSE
+	RETURN Grand
+ENDIF
+
+IF height >= 100
+	RETURN Petit
+ELSE
+	RETURN Grand
+ENDIF
+
+END
+
+
+11. Prends un type de café en paramètre (café latté, americano ou frapuccino). Si le type est soit americano
+ou café latté, retourner “Faire le café” sinon retourner “Demander si veut de la crème fouettée”.
+
+Name: coffee
+
+START
+
+variables: coffee
+
+IF coffee == americano || coffee == latte
+	RETURN Faire le cafe
+ELSE
+	RETURN Demander si veut de la creme fouettee
+ENDIF
+
+END
+
+
+Exercice 12
+13. Le Service de la Qualité de l’Environnement possède trois listes de noms d’industries
+reconnues pour leur haut taux de pollution atmosphérique. L’indice de pollution
+atmosphérique dépend de plusieurs facteurs et il est calculé régulièrement.
+L'indice de pollution varie de 0 à 1. Une valeur comprise entre 0,04 et 0,31 est dite
+normale. Si sa valeur de l’indice dépasse 0,31 les industries de la liste A sont avisées de
+suspendre leurs activités jusqu’à ce que la valeur de l’indice redevienne normale. Si
+l’indice excède 0,40, on avise également la liste B et s’il excède 0,50, on avise aussi les
+industries de la liste C. Pour toutes les autres valeurs, écrire « Valeur impossible ».
+Faire le programme qui lit la valeur de l’indice de pollution atmosphérique et indique
+quelle liste devrait être affichée.
+
+Name: pollutionIndexShowList
+
+START
+
+variables: pollutionIndex, listA, listB, listC
+
+IF pollutionIndex > 0,50
+	RETURN listA + listB + listC
+ELSE IF pollutionIndex > 0,40
+	RETURN listA + listB
+ELSE IF pollutionIndex > 0,31
+	RETURN listA
+ELSE
+	RETURN Valeur impossible
+	
+END
