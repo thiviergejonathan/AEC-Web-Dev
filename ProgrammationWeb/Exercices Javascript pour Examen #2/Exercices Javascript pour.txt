@@ -1,0 +1,224 @@
+Exercices Javascript pour Examen #2
+
+Exercices
+Exercices 1 à 4
+1. Prends 2 nombres différents en paramètre. Trouver et retourner le plus petit et
+le plus grand. Si les deux nombres sont identiques, retournez un message
+d'erreur à l'utilisateur.
+2. Prends 3 nombres différents en paramètres. Trouver et retourner le plus petit
+et le plus grand.
+3. Prends le périmètre d’un rectangle en paramètre. Calculer et retourner la
+surface d'un rectangle pour seulement ceux ayant un périmètre d'au moins
+100.
+4. Prends 2 nombres en paramètre. Si ces 2 nombres sont :
+a. supérieurs ou égaux à 10, retournez leur somme (addition)
+b. inférieurs à 10, retourner leur produit (multiplication)
+c. Si l'un des deux nombres est supérieur ou égal à 10 et l'autre inférieur à 10, affichez la
+différence entre les deux nombres.
+Exercices 5 à 8
+5. Prends une lettre de l'alphabet en paramètre. Retourner le mot voyelle (pour : a, e, i, o, u, y) ou
+le mot consonne (pour les autres) selon la lettre lue.
+6. Lire une note d’examen et retourner « Échec » si la note est inférieure à 60 et « Bravo » si la
+note est supérieure ou égale à 60.
+7. Prends un montant de vente en paramètre et retourne le montant d’escompte correspondant
+sachant que le taux d’escompte est de 12% et n’est calculé que sur les montants supérieurs ou
+égaux à $500.00.
+8. Prends l’âge d’un individu en paramètre et retourner le mot :
+a. « Adulte » si l’âge est plus grand ou égal à 18 ans
+b. « Adolescent » si l’âge est compris entre 12 et 17 ans inclusivement
+c. « Enfant » si l’âge est moins de 12 ans.
+Exercices 9 à 11
+9. Prends 2 paramètres: longueur et hauteur.
+a. Si la longueur est de 100 et moins, retourner “Petit”, sinon retourner “Grand”. Même chose pour
+la hauteur.
+b. Si la longueur et la hauteur sont de la même grandeur, ne pas retourner “Petit” ou “Grand” mais
+simplement retourner “Pareil”
+10. Reprendre le problème ci-haut.
+c. Lorsque la hauteur est plus petite que 100 et que la longueur est est pareil à la hauteur,
+retourner “Petit et pareil”.
+d. Faire de même pour la longueur.
+11. Prends un type de café en paramètre (café latté, americano ou frapuccino). Si le type est soit americano
+ou café latté, retourner “Faire le café” sinon retourner “Demander si veut de la crème fouettée”.
+Exercice 12
+13. Le Service de la Qualité de l’Environnement possède trois listes de noms d’industries
+reconnues pour leur haut taux de pollution atmosphérique. L’indice de pollution
+atmosphérique dépend de plusieurs facteurs et il est calculé régulièrement.
+L'indice de pollution varie de 0 à 1. Une valeur comprise entre 0,04 et 0,31 est dite
+normale. Si sa valeur de l’indice dépasse 0,31 les industries de la liste A sont avisées de
+suspendre leurs activités jusqu’à ce que la valeur de l’indice redevienne normale. Si
+l’indice excède 0,40, on avise également la liste B et s’il excède 0,50, on avise aussi les
+industries de la liste C. Pour toutes les autres valeurs, écrire « Valeur impossible ».
+Faire le programme qui lit la valeur de l’indice de pollution atmosphérique et indique
+quelle liste devrait être affichée.
+
+===
+
+Exercices
+Comment représenter un algorithme?
+1. Prends un nombre au hasard en paramètre. Retourner le nombre d’itérations
+requises pour avoir un nombre égal à 0.5
+2. Print (seulement écrire print avant la valeur) le nombre d’itération actuelles
+pour un nombre égal à 1000
+3. Prends un nombre X et Y en paramètres. Multiplier le nombre X par 3 puis
+soustraire 1 à X pour le nombre de fois Y. Retourner X
+4. Prends un nombre X en paramètres. Tant que le nombre X est pair, multiplier X
+par 2 et soustraire 1. Retourner le nombre d’itérations requises pour y arriver.
+5. Prends un nombre X en paramètres. À chaque itération, créer un nom aléatoire
+entre 0 et 1. Calculer le nombre de 0 que vous avez eu.
+Comment représenter un algorithme?
+6. Prends un nombre X en paramètres. Print le nombre de fois X “Attention”
+7. Print valeurs Fahrenheit de -40 à 40 en Celsius par tranche de 5. (Celsius =
+5/9(fahrenheit-32))
+8. Transférer les valeurs Fahrenheit de 10 à 20 en Celsius par tranche de 1.
+9. Print le montant et la taxe de 9% pour les montants de $5.00 à $100.00 par
+tranche de $5.00.
+10. Print les nombres de 1 à 10 avec le carré et le cube de chacun de ces nombres.
+
+
+===
+
+
+1. Prendre un nombre X en argument. Si le nombre est pair, divisez par deux. Si ce
+nombre est impair, soustraire 1. Retourner le nombre d’étapes requises pour arriver à 0.
+Ex.:
+a. X = 10
+b. X est pair, donc je divise par deux. X deviendra donc 5.
+c. X est devenu impair, je soustrait 1. X deviendra donc 4.
+d. X est devenu pair, je divise par deux. X deviendra donc 2.
+e. X reste pair, je divise par deux. X deviendra 1.
+f. X est impair, je soustrait 1. X deviens 0.
+g. J’ai donc 5 étapes pour que X parte de 10 à 0.
+
+
+2. FizzBuzz. FizzBuzz est un jeu de mathématiques. Vous devez trouver les nombres
+divisibles par 3, 5 ou par 3 et 5. Si un nombre est divisible par 3, vous dites Fizz. Si un
+nombre est divisible par 5, vous dites Buzz. Si un nombre est divisible par 3 et 5, vous
+dites FizzBuzz. Faites un algorithme qui calcule le nombre de Fizz, de Buzz et de
+FizzBuzz pour les 100 premiers nombres. (1 à 100).
+Ex.:
+a. X = 15
+b. 1 n’est pas divisible par 3, ni par 5
+c. 2 n’est pas divisible par 3, ni par 5
+d. 3 est divisible par 3, mais pas par 5 donc Fizz
+e. 4 n’est pas divisible par 3, ni par 5
+f. 5 est divisible par 5 mais pas par 3 donc Buzz
+g. 6 est divisible par 3 mais pas par 5 donc Fizz
+h. 7 n’est pas divisible par 3, ni par 5
+i. 8 n’est pas divisible par 3, ni par 5
+j. 9 est divisible par 3 donc Fizz
+k. 10 est divisible par 5 donc Buzz
+l. 11 n’est pas divisible par 3 ou 5
+m. 12 est divisible par 3 donc Fizz
+n. 13 n’est pas divisible par 3 ou 5
+o. 14 n’est pas divisible par 3 ou 5
+p. 15 est divisible par 3 et 5 donc FizzBuzz
+q. J’ai 4 Fizz, 2 Buzz et 1 FizzBuzz
+
+
+3. Transformez les km/h en mph de 0 à 100 km/h par tranche de 10. Pour trouver la valeur
+des km/h en mph, divisez km/h / 1.609.
+Ex.:
+a. 0 n’est pas divisible, donc 0
+b. 10 / 1.609 = 6,22 mph
+c. 20 / 1.609 = 12,43 mph
+d. etc...
+
+
+4. Pour X nombre de fois, créez un algorithme qui trouvera la quantité de nombres impairs
+que donnera un chiffre généré au hasard.
+Ex.:
+a. X = 3
+b. Je génère un chiffre au hasard: 3.
+c. 3 est impair
+d. Je génère un autre chiffre au hasard: 9
+e. 9 est impair
+f. Je génère un autre chiffre au hasard: 8
+g. 8 est pair
+h. J’ai donc un total de 2 chiffres impairs
+
+
+5. Créez un algorithme qui fera la multiplication d’un nombre par ce même nombre, X fois.
+Retournez la somme de ces nombres.
+Ex.:
+a. X = 3
+b. 1 * 1 = 1
+c. 2 * 2 = 4
+d. 3 * 3 = 9
+e. 1 + 4 + 9 = 14
+
+
+6. Créez un algorithme qui fera la somme des nombres X fois à partir de 1.
+Ex.:
+a. X = 3
+b. 1 + 0 = 1
+c. 2 + 1 = 3
+d. 3 + 3 = 6
+
+
+7. Créez un algorithme qui trouvera toutes les années bissextiles entre la dernière et X
+année. La dernière a eu lieu en 2020.
+Ex.
+a. X = 2026
+b. 2020 + 4 = 2024
+c. 2024 + 4 = 2028
+d. 2028 est plus grand que 2026 donc je n’ai qu’une seule année bissextile entre
+2020 et 2026
+
+
+8. Créez un algorithme qui déterminera les X prochaines années bissextiles à partir de
+cette année.
+Ex.:
+a. X = 3
+b. La prochaine année bissextile est 2024
+c. Ensuite 2028
+d. Pour finir 2032
+
+===
+
+
+
+Examen 1
+L’examen pose deux questions. Chaque question vaut 50% de la note totale de l’examen. Vous
+pouvez faire l’examen dans Google Documents, Word, le format que vous désirez, tant qu’il
+m’est remis en format PDF.
+Vous ne serez évalué que sur la logique de votre algorithme. La syntaxe, forme, efficacité ou
+toute autre critère ne sera pas évalué. Toutefois, je souhaite que celui-ci soit facilement lisible.
+Une mauvaise logique dans une partie de l'algorithme n’entraîne aucunement la perte de tous
+les points pour cet algorithme. Par exemple, vous avez fait une erreur dans une partie de
+l’algorithme (vous avez mis >= au lieu de <=) mais le reste de l’algorithme reste logique. Vous
+n’allez perdre qu’un seul point.
+L’examen est sur 10.
+Vous avez jusqu’à 23h59 le jeudi 17 novembre 2022 pour me remettre l’examen par MIO.
+BON SUCCÈS!
+1. Créez un algorithme qui trouvera tous les nombres pairs entre le point de référence X et
+un nombre Y.
+Ex.
+a. X = 3, Y = 8
+b. 3 + 1 = 4
+c. 4 + 1 = 5
+d. 5 + 1 = 6
+e. 6 + 1 = 7
+f. 7 + 1 = 8
+g. J’ai donc trois nombres pairs, je retourne 3
+2. FizzBuzz est un jeu de mathématiques. Vous devez trouver les nombres divisibles par 3,
+5 ou par 3 et 5. Si un nombre est divisible par 3, vous dites Fizz. Si un nombre est
+divisible par 5, vous dites Buzz. Si un nombre est divisible par 3 et 5, vous dites
+FizzBuzz. Faites un algorithme qui calcule seulement le nombre de FizzBuzz pour les
+nombres de X à Y.
+Ex.:
+a. X = 3, Y = 15
+b. 3 est divisible par 3, mais pas par 5 donc Fizz
+c. 4 n’est pas divisible par 3, ni par 5
+d. 5 est divisible par 5 mais pas par 3 donc Buzz
+e. 6 est divisible par 3 mais pas par 5 donc Fizz
+f. 7 n’est pas divisible par 3, ni par 5
+g. 8 n’est pas divisible par 3, ni par 5
+h. 9 est divisible par 3 donc Fizz
+i. 10 est divisible par 5 donc Buzz
+j. 11 n’est pas divisible par 3 ou 5
+k. 12 est divisible par 3 donc Fizz
+l. 13 n’est pas divisible par 3 ou 5
+m. 14 n’est pas divisible par 3 ou 5
+n. 15 est divisible par 3 et 5 donc FizzBuzz
+o. J’ai 1 seul FizzBuzz
+
