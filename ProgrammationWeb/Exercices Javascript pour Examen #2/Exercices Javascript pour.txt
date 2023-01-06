@@ -1,45 +1,58 @@
 Exercices Javascript pour Examen #2
 
-Exercices
 Exercices 1 à 4
+
 1. Prends 2 nombres différents en paramètre. Trouver et retourner le plus petit et
 le plus grand. Si les deux nombres sont identiques, retournez un message
 d'erreur à l'utilisateur.
+
 2. Prends 3 nombres différents en paramètres. Trouver et retourner le plus petit
 et le plus grand.
+
 3. Prends le périmètre d’un rectangle en paramètre. Calculer et retourner la
 surface d'un rectangle pour seulement ceux ayant un périmètre d'au moins
 100.
+
 4. Prends 2 nombres en paramètre. Si ces 2 nombres sont :
 a. supérieurs ou égaux à 10, retournez leur somme (addition)
 b. inférieurs à 10, retourner leur produit (multiplication)
 c. Si l'un des deux nombres est supérieur ou égal à 10 et l'autre inférieur à 10, affichez la
 différence entre les deux nombres.
 Exercices 5 à 8
+
 5. Prends une lettre de l'alphabet en paramètre. Retourner le mot voyelle (pour : a, e, i, o, u, y) ou
 le mot consonne (pour les autres) selon la lettre lue.
+
 6. Lire une note d’examen et retourner « Échec » si la note est inférieure à 60 et « Bravo » si la
 note est supérieure ou égale à 60.
+
 7. Prends un montant de vente en paramètre et retourne le montant d’escompte correspondant
 sachant que le taux d’escompte est de 12% et n’est calculé que sur les montants supérieurs ou
 égaux à $500.00.
+
 8. Prends l’âge d’un individu en paramètre et retourner le mot :
 a. « Adulte » si l’âge est plus grand ou égal à 18 ans
 b. « Adolescent » si l’âge est compris entre 12 et 17 ans inclusivement
 c. « Enfant » si l’âge est moins de 12 ans.
+
 Exercices 9 à 11
+
 9. Prends 2 paramètres: longueur et hauteur.
 a. Si la longueur est de 100 et moins, retourner “Petit”, sinon retourner “Grand”. Même chose pour
 la hauteur.
 b. Si la longueur et la hauteur sont de la même grandeur, ne pas retourner “Petit” ou “Grand” mais
 simplement retourner “Pareil”
+
 10. Reprendre le problème ci-haut.
 c. Lorsque la hauteur est plus petite que 100 et que la longueur est est pareil à la hauteur,
 retourner “Petit et pareil”.
 d. Faire de même pour la longueur.
+
 11. Prends un type de café en paramètre (café latté, americano ou frapuccino). Si le type est soit americano
 ou café latté, retourner “Faire le café” sinon retourner “Demander si veut de la crème fouettée”.
+
 Exercice 12
+
 13. Le Service de la Qualité de l’Environnement possède trois listes de noms d’industries
 reconnues pour leur haut taux de pollution atmosphérique. L’indice de pollution
 atmosphérique dépend de plusieurs facteurs et il est calculé régulièrement.
@@ -55,23 +68,33 @@ quelle liste devrait être affichée.
 
 Exercices
 Comment représenter un algorithme?
+
 1. Prends un nombre au hasard en paramètre. Retourner le nombre d’itérations
 requises pour avoir un nombre égal à 0.5
+
 2. Print (seulement écrire print avant la valeur) le nombre d’itération actuelles
 pour un nombre égal à 1000
+
 3. Prends un nombre X et Y en paramètres. Multiplier le nombre X par 3 puis
 soustraire 1 à X pour le nombre de fois Y. Retourner X
+
 4. Prends un nombre X en paramètres. Tant que le nombre X est pair, multiplier X
 par 2 et soustraire 1. Retourner le nombre d’itérations requises pour y arriver.
+
 5. Prends un nombre X en paramètres. À chaque itération, créer un nom aléatoire
 entre 0 et 1. Calculer le nombre de 0 que vous avez eu.
 Comment représenter un algorithme?
+
 6. Prends un nombre X en paramètres. Print le nombre de fois X “Attention”
+
 7. Print valeurs Fahrenheit de -40 à 40 en Celsius par tranche de 5. (Celsius =
 5/9(fahrenheit-32))
+
 8. Transférer les valeurs Fahrenheit de 10 à 20 en Celsius par tranche de 1.
+
 9. Print le montant et la taxe de 9% pour les montants de $5.00 à $100.00 par
 tranche de $5.00.
+
 10. Print les nombres de 1 à 10 avec le carré et le cube de chacun de ces nombres.
 
 
@@ -175,9 +198,8 @@ d. Pour finir 2032
 
 ===
 
-
-
 Examen 1
+
 L’examen pose deux questions. Chaque question vaut 50% de la note totale de l’examen. Vous
 pouvez faire l’examen dans Google Documents, Word, le format que vous désirez, tant qu’il
 m’est remis en format PDF.
@@ -200,6 +222,7 @@ d. 5 + 1 = 6
 e. 6 + 1 = 7
 f. 7 + 1 = 8
 g. J’ai donc trois nombres pairs, je retourne 3
+
 2. FizzBuzz est un jeu de mathématiques. Vous devez trouver les nombres divisibles par 3,
 5 ou par 3 et 5. Si un nombre est divisible par 3, vous dites Fizz. Si un nombre est
 divisible par 5, vous dites Buzz. Si un nombre est divisible par 3 et 5, vous dites
@@ -221,4 +244,3 @@ l. 13 n’est pas divisible par 3 ou 5
 m. 14 n’est pas divisible par 3 ou 5
 n. 15 est divisible par 3 et 5 donc FizzBuzz
 o. J’ai 1 seul FizzBuzz
-
