@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercices pour examen 2</title>
-    <script src="js/index.js" defer></script>
-  </head>
-  <body>
-    <p class="showResults"></p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercices pour examen 2</title>
+  <script src="js/index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <hr>
+  #6. Lire une note d’examen et retourner « Échec » si la note est inférieure à 60 et « Bravo » si la
+  note est supérieure ou égale à 60.
+  
+
+
+  <hr>
+  #5. Prends une lettre de l'alphabet en paramètre. Retourner le mot voyelle (pour : a, e, i, o, u, y) ou
+  le mot consonne (pour les autres) selon la lettre lue.<br><br>
+
+  Lettre: <input type="text" name="lettre" value="a" id="input51" maxlength="1"><br><br>
+
+  <button onclick="startExercice5()">Afficher resultat</button><br><br>
+
+  Resultat:<p id="resultatExercice5"></p><br>
+
+  <hr>
+  #4. Prends 2 nombres en paramètre. Si ces 2 nombres sont :
+  a. supérieurs ou égaux à 10, retournez leur somme (addition)
+  b. inférieurs à 10, retourner leur produit (multiplication)
+  c. Si l'un des deux nombres est supérieur ou égal à 10 et l'autre inférieur à 10, affichez la
+  différence entre les deux nombres.<br><br>
+
+  nombre1: <input type="number" name="nb1" value="10" id="input41"><br>
+  nombre2: <input type="number" name="nb2" value="20" id="input42"><br><br>
+
+  <button onclick="startExercice4()">Afficher resultat</button><br><br>
+
+  Resultat:<p id="resultatExercice4"></p><br>
+
+
+  <hr>
+  #3. Prends le périmètre d’un rectangle en paramètre. Calculer et retourner la
+  surface d'un rectangle pour seulement ceux ayant un périmètre d'au moins
+  100.<br><br>
+
+  largeur: <input type="number" name="largeur" value="10" id="input31"><br>
+  hauteur: <input type="number" name="hauteur" value="20" id="input32"><br><br>
+
+  <button onclick="startExercice3()">Calculer l'aire du rectangle</button><br><br>
+
+  Resultat:<p id="resultatExercice3"></p><br>
+
+  <hr>
+  #2. Prends 3 nombres différents en paramètres. Trouver et retourner le plus petit
+  et le plus grand.<br><br>
+
+  Nombre 1: <input type="number" name="aname" value="1" id="input21"><br>
+  Nombre 2: <input type="number" name="bname" value="2" id="input22"><br>
+  Nombre 2: <input type="number" name="cname" value="3" id="input23"><br><br>
+
+  <button onclick="startExercice2()">Trouver le plus petit et le plus grand</button><br><br>
+
+  Resultat:<p id="resultatExercice2"></p><br>
+  <hr>
+  #1. Prends 2 nombres différents en paramètre. Trouver et retourner le plus petit et
+  le plus grand. Si les deux nombres sont identiques, retournez un message
+  d'erreur à l'utilisateur.<br><br>
+
+  Nombre 1: <input type="number" name="fname" value="1" id="input1"><br>
+  Nombre 2: <input type="number" name="lname" value="2" id="input2"><br><br>
+
+  <button onclick="startExercice1()">Trouver le plus petit et le plus grand</button><br><br>
+
+  Resultat:<p id="resultatExercice1"></p><br>
+  <hr>
+
+</body>
+
 </html>

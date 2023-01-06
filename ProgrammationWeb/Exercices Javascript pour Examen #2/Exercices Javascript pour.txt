@@ -1,7 +1,5 @@
 Exercices Javascript pour Examen #2
 
-Exercices 1 à 4
-
 1. Prends 2 nombres différents en paramètre. Trouver et retourner le plus petit et
 le plus grand. Si les deux nombres sont identiques, retournez un message
 d'erreur à l'utilisateur.
@@ -18,7 +16,6 @@ a. supérieurs ou égaux à 10, retournez leur somme (addition)
 b. inférieurs à 10, retourner leur produit (multiplication)
 c. Si l'un des deux nombres est supérieur ou égal à 10 et l'autre inférieur à 10, affichez la
 différence entre les deux nombres.
-Exercices 5 à 8
 
 5. Prends une lettre de l'alphabet en paramètre. Retourner le mot voyelle (pour : a, e, i, o, u, y) ou
 le mot consonne (pour les autres) selon la lettre lue.
